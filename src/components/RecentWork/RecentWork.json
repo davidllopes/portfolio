@@ -1,0 +1,12 @@
+{
+    "workExamples": [
+        {
+            "altLayout": false,
+            "title": "Archer Game",
+            "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+            "tech": ["HTML", "SCSS", "JS", "jQuery"],
+            "thumbnail": "assets/images/recent/archer-s.png",
+            "image": "assets/images/recent/archer.png"
+        }
+    ]
+}
