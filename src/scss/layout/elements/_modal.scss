@@ -1,3 +1,11 @@
 .modal-container {
     background-color: $modalOverlay;
+
+    .modal {
+        .close__btn {
+            padding: 5px;
+            height: 35px;
+            width: 35px;
+        }
+    }
 }

@@ -18,14 +18,17 @@ function App() {
         setTimeout(() => {
             setLoaderStyle({ opacity: 0 });
             setAppContStyle({ opacity: 1 });
-            setLoadingFinish(true);
         }, 1000);
     }, []);
+
+    const loadingDone = () => {
+        setLoadingFinish(true);
+    };
 
     return (
         <div className="App">
             {!loadingFinished ? <LoadingAnim style={loaderStyle} /> : ""}
-            <AppContainer style={AppContStyle}>
+            <AppContainer style={AppContStyle} onTransitionEnd={loadingDone}>
                 <HeaderComponent />
                 <RecentWork />
                 <FooterContainer />

@@ -20,7 +20,7 @@
 
 .container {
     width: 100%;
-    max-width: 1024px;
+    max-width: var(--max-width-d);
     padding: 0 1rem;
     margin: auto;
 
