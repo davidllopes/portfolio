@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");*/
 
 @import "./resets/resets";
-@import "./typography/titles";
+@import "./typography/typography";
 @import "./layout/layout";
 @import "./animations/animations";
+
+:root,
+[data-theme="default"] {
+    font-family: "Roboto", sans-serif;
+    color: $textPrimary;
+}

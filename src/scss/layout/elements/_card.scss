@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include tablet {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    @include desktop {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    &__thumbnail {
+        width: 100%;
+
+        @include tablet {
+            width: calc(100% / 2);
+        }
+        @include desktop {
+            width: calc(100% / 3);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+            overflow: hidden;
+        }
+    }
+
+    &__text {
+        width: 100%;
+
+        @include tablet {
+            align-items: center;
+            display: flex;
+            width: calc(100% / 2);
+        }
+        @include desktop {
+            align-items: center;
+            display: flex;
+            width: calc(100% / 3 * 2);
+        }
+
+        .card__title {
+            color: var(--titlePrimary);
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+    }
+}

@@ -1,3 +1,17 @@
 .jumbo-title {
-    font-size: 4rem;
+    font-size: 5rem;
+}
+.sub-title {
+    margin: 1rem 0;
+    font-weight: 100;
+}
+
+$max: 5rem;
+
+@for $i from 1 through 6 {
+    $size: min($max, calc($max / ($i - 0.5)));
+    h#{$i} {
+        font-weight: 900;
+        font-size: $size;
+    }
 }

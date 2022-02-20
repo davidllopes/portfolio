@@ -1,13 +1,39 @@
 :root {
-    --nasuPurple: #5f27cd;
-    --joustBlue: #54a0ff;
-    --jadeDust: #00d2d3;
+    --megaman: #48dbfb;
+    --cyanite: #0abde3;
     --wildCaribbeanGreen: #1dd1a1;
+    --jadeDust: #00d2d3;
+    --aquaVelvet: #01a3a4;
+    --joustBlue: #54a0ff;
+    --nasuPurple: #5f27cd;
+    --bluebell: #341f97;
+    --stormPetrel: #8395a7;
+    --fuelTown: #576574;
+    --imperialPrimer: #222f3e;
+    --textPrimary: var(--imperialPrimer);
+    --titlePrimary: var(--fuelTown);
 }
 
 /* Color vars */
 
-$nasuPurple: var(--nasuPurple);
-$joustBlue: var(--joustBlue);
-$jadeDust: var(--jadeDust);
+$megaman: var(--megaman);
+$cyanite: var(--cyanite);
 $wildCaribbeanGreen: var(--wildCaribbeanGreen);
+$jadeDust: var(--jadeDust);
+$aquaVelvet: var(--aquaVelvet);
+$joustBlue: var(--joustBlue);
+$nasuPurple: var(--nasuPurple);
+$bluebell: var(--bluebell);
+$stormPetrel: var(--stormPetrel);
+$imperialPrimer: var(--imperialPrimer);
+
+/*  Applied to */
+
+$textPrimary: var(--textPrimary);
+$titlePrimary: var(--titlePrimary);
+$tagColor: $stormPetrel;
+$tagTextColor: rgba(white, 1);
+$buttonPrimary: $cyanite;
+$buttonPrimaryText: white;
+$buttonPrimaryHover: $megaman;
+$modalOverlay: rgba(#222f3e, 0.8);
