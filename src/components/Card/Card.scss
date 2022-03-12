@@ -1,26 +1,27 @@
+@use "../../scss/mixins/" as *;
+
 .card {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 5rem;
+    position: relative;
 
-    @include tablet {
+    @include tablet_min {
         flex-direction: row;
         align-items: stretch;
+        margin-bottom: 9rem;
+
+        &--alternative {
+            flex-direction: row-reverse;
+        }
     }
 
-    @include desktop {
-        flex-direction: row;
-        align-items: stretch;
-    }
-
-    &__thumbnail {
+    & &__thumbnail {
         width: 100%;
 
-        @include tablet {
+        @include tablet_min {
             width: calc(100% / 2);
-        }
-        @include desktop {
-            width: calc(100% / 3);
         }
 
         img {
@@ -32,18 +33,25 @@
         }
     }
 
-    &__text {
+    @include tablet_min {
+        & &__bigThumbnail {
+            left: 50%;
+            max-width: 1280px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50vw;
+            z-index: -1;
+        }
+    }
+
+    & &__text {
         width: 100%;
 
-        @include tablet {
+        @include tablet_min {
             align-items: center;
             display: flex;
             width: calc(100% / 2);
-        }
-        @include desktop {
-            align-items: center;
-            display: flex;
-            width: calc(100% / 3 * 2);
         }
 
         .card__title {

@@ -1,4 +1,4 @@
-@import "./elements/elements";
+@import "./elements/";
 
 .img-responsive {
     width: 100%;
@@ -12,7 +12,7 @@
 
     .section__title {
         font-weight: 900;
-        margin: 3rem 0;
+        margin: 5rem 0;
         text-align: center;
         color: var(--titlePrimary);
     }

@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 /*@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");*/
 
-@import "./resets/resets";
-@import "./typography/typography";
-@import "./layout/layout";
-@import "./animations/animations";
+@import "./mixins";
+@import "./resets";
+@import "./typography";
+@import "./layout";
+@import "./animations";
 
 :root,
 [data-theme="default"] {

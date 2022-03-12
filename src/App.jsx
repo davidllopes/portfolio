@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import FooterContainer from "./components/Footer/Footer";
-import HeaderComponent from "./components/Header/Header";
+import FooterContainer from "./parts/Footer/Footer";
+import HeaderComponent from "./parts/Header/Header";
 import LoadingAnim from "./components/Loader/Loader";
-import RecentWork from "./components/RecentWork/RecentWork.jsx";
+import RecentWork from "./parts/RecentWork/RecentWork.jsx";
 
 const AppContainer = styled.div`
     opacity: 0;

@@ -3,6 +3,8 @@
 
     .modal {
         .close__btn {
+            background-color: transparent;
+            color: $buttonPrimary;
             padding: 5px;
             height: 35px;
             width: 35px;
