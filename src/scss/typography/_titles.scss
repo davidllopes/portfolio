@@ -1,17 +1,35 @@
-.jumbo-title {
+.heading {
+    font-weight: 700;
+}
+.heading--jumbo {
     font-size: 5rem;
 }
-.sub-title {
+.subheading {
     margin: 1rem 0;
-    font-weight: 100;
+    font-weight: 300;
 }
 
-$max: 5rem;
+h1,
+.heading--primary {
+    font-size: 5rem;
+}
 
-@for $i from 1 through 6 {
-    $size: min($max, calc($max / ($i - 0.5)));
-    h#{$i} {
-        font-weight: 900;
-        font-size: $size;
-    }
+h2,
+.heading--secondary {
+    font-size: 3.5rem;
+}
+
+h3,
+.heading--tertiary {
+    font-size: 2rem;
+}
+
+h4,
+.heading--quaternary {
+    font-size: 1.5rem;
+}
+
+h5,
+.heading--quinary {
+    font-size: 1.25rem;
 }

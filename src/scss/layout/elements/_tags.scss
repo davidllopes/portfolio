@@ -1,13 +1,22 @@
+@use "../../mixins/" as *;
+@use "../../variables/" as *;
+
 .tags {
     padding: 7px 0;
-    &-span__tag {
-        background-color: $tagColor;
-        border-radius: 100px;
-        color: $tagTextColor;
-        display: inline-block;
-        font-size: 0.7rem;
-        font-weight: 900;
-        margin-right: 5px;
-        padding: 3px 10px;
+    text-align: center;
+    @include tablet_min {
+        text-align: left;
+    }
+    .tag {
+        &__span {
+            background-color: $tagColor;
+            border-radius: 100px;
+            color: $tagTextColor;
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 900;
+            margin-right: 5px;
+            padding: 3px 10px;
+        }
     }
 }

@@ -1,12 +1,14 @@
+@use "./resets" as *;
+@use "./variables/" as *;
+@use "./mixins" as *;
+@use "./typography" as *;
+@use "./layout/elements/" as *;
+@use "./animations" as *;
+@use "./abstract/" as *;
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 /*@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");*/
-
-@import "./mixins";
-@import "./resets";
-@import "./typography";
-@import "./layout";
-@import "./animations";
 
 :root,
 [data-theme="default"] {

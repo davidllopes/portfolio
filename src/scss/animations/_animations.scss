@@ -1,0 +1,14 @@
+@keyframes load {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes pointDown {
+    50% {
+        transform: translate(0px, 50px);
+    }
+}

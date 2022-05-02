@@ -2,7 +2,7 @@ import CardButton from "./CardButton";
 
 const TagList = (props) => {
     return props.tags.map((item) => (
-        <span className="tags-span__tag" key={item}>
+        <span className="tag tag__span" key={item}>
             {item}
         </span>
     ));
@@ -12,10 +12,14 @@ export default function CardText(props) {
     return (
         <div className="card__text">
             <div className="text__container">
-                <h3 className="card__title">
+                <h3 className="heading heading--tertiary card__text__title">
                     {props.content.title && props.content.title}
                 </h3>
-                <div className={`tags ${props.className}__tags`}>
+                <div
+                    className={`tags ${
+                        props.className ? "tags__" + props.className : ""
+                    }`}
+                >
                     <TagList tags={props.content.tech} />
                 </div>
                 <p>{props.content.description && props.content.description}</p>

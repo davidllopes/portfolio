@@ -1,6 +1,23 @@
 {
     "workExamples": [
         {
+            "headingLayout": true,
+            "altLayout": false,
+            "title": "Avado Landing Page",
+            "description": "A landing page for a report Avado Learning made on why organisations’ success depends on their approach to learning. This landing page was built on Hubspot using custom components, custom animated charts, a donut chart using Chart.js, and parallax photos to separate some sections.",
+            "tech": ["HubL", "CSS", "JS", "jQuery", "Chart.js"],
+            "imgsPath": "static/assets/imgs/examples/future-choices/",
+            "thumbnail": "Mockup1x.png",
+            "thumbnail2x": "Mockup2x.png",
+            "bigThumbnail": false,
+            "imgs": [],
+            "btn": {
+                "text": "Take me there",
+                "action": "URL",
+                "URL": "https://join.avadolearning.com/future-choices"
+            }
+        },
+        {
             "altLayout": false,
             "title": "Archer Game",
             "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
@@ -12,21 +29,6 @@
         },
         {
             "altLayout": true,
-            "title": "Avado Landing Page",
-            "description": "A landing page for a report Avado Learning made on why organisations’ success depends on their approach to learning. This landing page was built on Hubspot using custom components, custom animated charts, a donut chart using Chart.js, and parallax photos to separate some sections.",
-            "tech": ["HubL", "CSS", "JS", "jQuery", "Chart.js"],
-            "imgsPath": "static/assets/imgs/examples/future-choices/",
-            "thumbnail": "Mockup1x.png, Mockup2x.png 2x",
-            "bigThumbnail": true,
-            "imgs": [],
-            "btn": {
-                "text": "Take me there",
-                "action": "URL",
-                "URL": "https://join.avadolearning.com/future-choices"
-            }
-        },
-        {
-            "altLayout": false,
             "title": "Archer Game",
             "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
             "tech": ["HTML", "SCSS", "JS", "jQuery"],

@@ -1,15 +1,20 @@
 import CardText from "./CardText";
 import CardThumbnail from "./CardThumbnail";
-import "./Card.scss";
+import "./_card.scss";
 
 const Card = (props) => {
-    const altLayout = props.content.altLayout;
-    const alternative = altLayout ? " card--alternative" : "";
+    const alternativeClass = props.content.altLayout
+        ? " card--alternative"
+        : "";
+    const headingClass = props.content.headingLayout ? " card--heading" : "";
     return (
-        <div className={`card ${props.className}__card${alternative}`}>
-            <CardThumbnail content={props.content} />
-            <div className="gutter"></div>
-            <CardText content={props.content} />
+        <div
+            className={`card card-${props.className}${alternativeClass}${headingClass}`}
+        >
+            <div className="container">
+                <CardThumbnail content={props.content} />
+                <CardText content={props.content} />
+            </div>
         </div>
     );
 };
