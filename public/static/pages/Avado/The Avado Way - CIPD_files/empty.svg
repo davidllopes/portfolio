@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 631 457" style="enable-background:new 0 0 631 457;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EDEDF5;}
+	.st1{opacity:0.5;fill:#CACAD4;enable-background:new    ;}
+	.st2{fill:#CACAD4;}
+</style>
+<g id="Layer_2_1_">
+	<g id="scenario">
+		<g>
+			<path class="st0" d="M128.8,45.8C50.8,86.8,0,153.4,0,228.5s50.8,141.7,128.8,182.7l182.7-182.7L128.8,45.8z"/>
+			<path class="st0" d="M498.2,42.8C446.8,15.9,383.7,0,315.5,0S184.2,15.9,132.8,42.8l182.7,182.7L498.2,42.8z"/>
+			<path class="st0" d="M631,228.5c0-75.1-50.8-141.7-128.8-182.7L319.5,228.5l182.7,182.7C580.2,370.2,631,303.6,631,228.5z"/>
+			<path class="st0" d="M132.8,414.2c51.3,26.9,114.4,42.8,182.7,42.8s131.3-15.9,182.7-42.8L315.5,231.5L132.8,414.2z"/>
+		</g>
+		<ellipse class="st1" cx="315.5" cy="228.5" rx="222.4" ry="144.8"/>
+		<path class="st2" d="M313.6,93h-0.4c-115,0-208.4,59.1-209.3,132.2h209.6V93z"/>
+		<path class="st2" d="M526.3,225.2c-0.9-73-94.1-132-209-132.2v132.2H526.3z"/>
+		<path class="st2" d="M104,229.6c0,0.4,0,0.7,0,1.1c0,73.6,93.7,133.3,209.3,133.3h0.4V229.6H104z"/>
+		<path class="st2" d="M318.1,229.6V364c115.4-0.1,209-59.8,209-133.3c0-0.4,0-0.7,0-1.1H318.1z"/>
+	</g>
+</g>
+</svg>

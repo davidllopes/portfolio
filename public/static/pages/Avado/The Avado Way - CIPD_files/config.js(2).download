@@ -1,0 +1,161 @@
+var lockedNavigation = true;
+var btnsEnabled = ['', true];
+
+var instructions = {
+   1: "Click the button on the left to reveal Clara's primary stakeholders",
+   2: "Click the button on the left to reveal Clara's secondary stakeholders",
+   3: "Now a series of characters will appear on the right. Drag each one to the correct area in the diagram.",
+   4: "Drag each character to the correct area in the diagram.",
+   5: "​Congratulations! You have successfully mapped Clara’s stakeholders.​ You can now review the information by clicking on the characters."
+};
+
+var names = {
+   1: {
+      name: "New removals division",
+      pos: {
+         top: "41%",
+         right: "53%"
+      }
+   },
+   2: {
+      name: "ACC Operational division",
+      pos: {
+         top: "36%",
+         left: "53%"
+      }
+   },
+   3: {
+      name: "HR function",
+      pos: {
+         top: "67%",
+         right: "54%"
+      }
+   },
+   4: {
+      name: "Board of Directors",
+      pos: {
+         top: "72%",
+         left: "53%"
+      }
+   },
+   5: {
+      name: "Recruitment websites",
+      pos: {
+         top: "4%",
+         left: "40%"
+      }
+   },
+   6: {
+      name: "Stakeholders",
+      pos: {
+         top: "60%",
+         right: "7%",
+         transform: "rotate(-90deg)"
+      }
+   },
+   7: {
+      name: "Industry watchdogs",
+      pos: {
+         top: "113%",
+         left: "40%"
+      }
+   },
+   8: {
+      name: "Government​",
+      pos: {
+         top: "60%",
+         left: "7%",
+         transform: "rotate(-90deg)"
+      }
+   }
+};
+
+var contents = {
+   1: {
+      src: "character1.svg",
+      target: [1],
+      name: "HR officer",
+      content: "​Matteo, the HR officer, will carry out the recruitment processes if the decision is made to recruit, and his time and input will be key​."
+   },
+   2: {
+      src: "character2.svg",
+      target: [2],
+      name: "Manager of new removals division",
+      content: "​Sarah, the manager of new removals division, has already said she wants to recruit for this position and her voice needs to be heard.​"
+   },
+   3: {
+      src: "character3.svg",
+      target: [3],
+      name: "Head of ACC Sales & Customer Care",
+      content: "​Uzma, Head of ACC Sales & Customer Care, might have to suggest someone from her team who could be seconded, or reasons why she might not be able to help.​"
+   },
+   4: {
+      src: "character4.svg",
+      target: [4],
+      name: "Operations Director",
+      content: "​Richa, the Operations Director, is Clara’s boss and a key influencer on the board of directors. She has ‘top table’ knowledge about the organisation’s future strategy.​"
+   },
+   5: {
+      src: "character5.svg",
+      target: [5],
+      name: "Department for International Trade",
+      content: "​Sarah has said she would like someone with language skills because the oversales removals business is strong. But how might this change, for example, the impact of Brexit on freedom of movement in the EU.​​"
+   },
+   6: {
+      src: "character6.svg",
+      target: [6],
+      name: "The Removals Ombudsman",
+      content: "​What is the feedback on customer care from the market? What evidence exists to suggest that customer standards are rising or falling, which might impact on the importance of the proposed role?​​"
+   },
+   7: {
+      src: "character7.svg",
+      target: [7],
+      name: "Glassdoor reviews",
+      content: "​Who is recruiting, who is considered a good employer, where are similar jobs posted and what are the best recruitment agencies to contact?​"
+   }
+};
+
+var targets = {
+   1: {
+      pos: {
+         top: "91%",
+         left: "33%"
+      }
+   },
+   2: {
+      pos: {
+         top: "56%",
+         left: "33%"
+      }
+   },
+   3: {
+      pos: {
+         top: "35%",
+         left: "50%"
+      }
+   },
+   4: {
+      pos: {
+         top: "90%",
+         left: "58%"
+      }
+   },
+   5: {
+      pos: {
+         top: "38%",
+         left: "16%"
+      }
+   },
+   6: {
+      pos: {
+         top: "117%",
+         left: "57%"
+      }
+   },
+   7: {
+      pos: {
+         top: "16%",
+         left: "60%"
+      }
+   }
+};
