@@ -1,7 +1,7 @@
 import {
    Header,
    HeaderOverlay,
-   HeaderVideo,
+   HeaderInner,
    HeaderContainer,
 } from "./Header.styled";
 
@@ -9,17 +9,23 @@ const HeaderComponent = () => {
    return (
       <HeaderContainer>
          <Header className="Header">
-            <HeaderVideo autoPlay={true} muted loop className="header__video">
-               <source
-                  src="static/assets/videos/mountains_-_72914.mp4"
-                  type="video/mp4"
-               />
-            </HeaderVideo>
             <HeaderOverlay>
-               <div>
-                  <h1 className="heading heading--jumbo">David Lopes</h1>
-                  <h4 className="subheading">Creative Developer</h4>
-               </div>
+               <HeaderInner className="col-8">
+                  <h1 className="heading heading--jumbo special-font">
+                     Hi, I'm David
+                  </h1>
+                  <h4 className="subheading">
+                     a Creative Developer with a passion for coding,
+                     interactivity and visual design
+                  </h4>
+               </HeaderInner>
+               <HeaderInner className="col-4">
+                  <ul>
+                     <li>Lorem ipsum</li>
+                     <li>Lorem ipsum</li>
+                     <li>Lorem ipsum</li>
+                  </ul>
+               </HeaderInner>
             </HeaderOverlay>
          </Header>
       </HeaderContainer>

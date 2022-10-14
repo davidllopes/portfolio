@@ -1,35 +1,37 @@
 .heading {
-    font-weight: 700;
+   font-weight: 600;
 }
 .heading--jumbo {
-    font-size: 5rem;
+   font-size: 7rem;
+   font-weight: 700;
 }
 .subheading {
-    margin: 1rem 0;
-    font-weight: 300;
+   margin: 1rem 0;
+   font-weight: 300;
+   line-height: 1.5;
 }
 
 h1,
 .heading--primary {
-    font-size: 5rem;
+   font-size: 5rem;
 }
 
 h2,
 .heading--secondary {
-    font-size: 3.5rem;
+   font-size: 3.5rem;
 }
 
 h3,
 .heading--tertiary {
-    font-size: 2rem;
+   font-size: 2rem;
 }
 
 h4,
 .heading--quaternary {
-    font-size: 1.5rem;
+   font-size: 1.5rem;
 }
 
 h5,
 .heading--quinary {
-    font-size: 1.25rem;
+   font-size: 1.25rem;
 }

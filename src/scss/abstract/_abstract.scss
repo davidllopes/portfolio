@@ -2,36 +2,42 @@
 @use "../mixins/" as *;
 
 .img-responsive {
-    width: 100%;
-    max-width: 100%;
+   width: 100%;
+   max-width: 100%;
 }
 
 .section {
-    width: 100%;
+   width: 100%;
 
-    .section__title {
-        font-weight: 900;
-        margin: 5rem 0;
-        text-align: center;
-        color: var(--titlePrimary);
-    }
+   .section__title {
+      margin: 5rem 0;
+      text-align: center;
+      color: var(--titlePrimary);
+   }
 }
 
 .container {
-    width: 100%;
-    max-width: var(--max-width-d);
-    padding: 0 1rem;
-    margin: auto;
+   width: 100%;
+   max-width: var(--max-width-d);
+   padding: 0 1rem;
+   margin: auto;
 
-    @include tablet {
-        padding: 0 1rem;
-    }
+   @include tablet {
+      padding: 0 1rem;
+   }
 
-    @include desktop {
-        padding: 0 1rem;
-    }
+   @include desktop {
+      padding: 0 1rem;
+   }
 }
 
 .full-width {
-    width: 100%;
+   width: 100%;
+}
+
+.col-4 {
+   max-width: 33.33%;
+}
+.col-8 {
+   max-width: 66.66%;
 }

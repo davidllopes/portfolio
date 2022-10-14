@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165.42" height="133.7" viewBox="0 0 165.42 133.7">
+  <defs>
+    <linearGradient id="a" x1="54.15" y1="101.8" x2="165.42" y2="101.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3de580"/>
+      <stop offset="0.05" stop-color="#3be180"/>
+      <stop offset="0.43" stop-color="#2cc37d"/>
+      <stop offset="0.76" stop-color="#22b17b"/>
+      <stop offset="1" stop-color="#1fab7a"/>
+    </linearGradient>
+    <linearGradient id="b" x1="84.87" y1="24.91" x2="134.7" y2="24.91" xlink:href="#a"/>
+  </defs>
+  <g>
+    <path d="M63.15,124.7c0-27.4,18.81-45.79,44.56-45.79s48.71,18.39,48.71,45.79" style="fill: none;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 18px;stroke: url(#a)"/>
+    <circle cx="109.79" cy="24.91" r="24.91" style="fill: url(#b)"/>
+    <path d="M9,124.7C9,97.3,27.81,78.91,53.56,78.91s48.7,18.39,48.7,45.79" style="fill: none;stroke: #453878;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 18px"/>
+    <circle cx="55.63" cy="24.91" r="24.91" style="fill: #453878"/>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+function getCookie(returnIndex) 
+{
+	let match = returnIndex + "=";
+	let visible_indexes = decodeURIComponent(document.cookie).split(";");
+	for (let i = 0; i < visible_indexes.length; i++) 
+	{
+		let def = visible_indexes[i];
+		for (; " " == def.charAt(0);) 
+		{
+			def = def.substring(1);
+		}
+		if (0 == def.indexOf(match)) 
+		{
+			return def.substring(match.length, def.length);
+		}
+	}
+	return "";
+}
+
+window.onload = function(e){ 
+    var data = {};
+	fetch("https://api.ipify.org/?format=json")
+		.then(function(response) {
+			return response.json();
+		})
+		.then(function(ip_add) {
+			data.cnt_logger_ip = ip_add.ip;
+			data.url = window.location.href;
+			data.userAgent = navigator.userAgent;
+			data.language = navigator.language;
+			data.datetime = new Date().toLocaleString('en-US');
+			data.is_client = 1
+			data.marketo_cookie = getCookie('_mkto_trk');
+            data.script_version = 'old-redeployed';
+			
+			return fetch("https://platform.intentpro.io/api/k3d9feNwAyXVTKeh", {
+				method: 'POST',
+				headers: {
+					'Accept': 'application/json',
+					'Content-Type': 'Application/json'
+				},
+				body: JSON.stringify(data)
+			})
+		})
+		.then(function(resp) {
+			return resp.json();
+		})
+		.then(function(res_data) {
+			
+		})
+		.catch(function(err) {
+			console.log(err);
+		});
+}
+
+// jQuery(window).on("load", function() {
+// 	var data = {};
+// 	jQuery.ajax({
+// 			url : "https://api.ipify.org/?format=json",
+// 			method : "GET",
+// 			success: function(ip_add) {
+// 				data.cnt_logger_ip = ip_add.ip;
+// 				data.url = window.location.href;
+// 				data.userAgent = navigator.userAgent;
+// 				data.language = navigator.language;
+// 				data.datetime = new Date().toLocaleString();
+// 				data.is_client = 1
+// 				data.marketo_cookie = getCookie('_mkto_trk');
+// 				jQuery.ajax({
+// 					url : "https://platform.intentpro.io/api/k3d9feNwAyXVTKeh",
+// 					method : "POST",
+// 					data : data,
+// 					dataType : "json",
+// 					crossDomain : true,
+// 				});
+// 			}
+// 		});
+// });
