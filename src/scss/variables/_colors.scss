@@ -1,13 +1,13 @@
 :root {
-   --megaman: #48dbfb;
-   --cyanite: #0abde3;
+   --accentColourHover: #48dbfb;
+   --accentColour: #0abde3;
    --wildCaribbeanGreen: #1dd1a1;
    --jadeDust: #00d2d3;
    --aquaVelvet: #01a3a4;
    --joustBlue: #54a0ff;
    --nasuPurple: #5f27cd;
    --bluebell: #341f97;
-   --stormPetrel: #8395a7;
+   --tagColour: #8395a7;
    --fuelTown: #576574;
    --primaryDark: #2b3233;
    --textPrimary: var(--primaryDark);
@@ -17,24 +17,23 @@
 
 /* Color vars */
 
-$megaman: var(--megaman);
-$cyanite: var(--cyanite);
+$accentColourHover: var(--accentColourHover);
+$accentColour: var(--accentColour);
 $wildCaribbeanGreen: var(--wildCaribbeanGreen);
 $jadeDust: var(--jadeDust);
 $aquaVelvet: var(--aquaVelvet);
 $joustBlue: var(--joustBlue);
 $nasuPurple: var(--nasuPurple);
 $bluebell: var(--bluebell);
-$stormPetrel: var(--stormPetrel);
+$tagColour: var(--tagColour);
 $primaryDark: var(--primaryDark);
 
 /*  Applied to */
 
 $textPrimary: var(--textPrimary);
 $titlePrimary: var(--titlePrimary);
-$tagColor: $stormPetrel;
 $tagTextColor: rgba(white, 1);
-$buttonPrimary: $cyanite;
+$buttonPrimary: $accentColour;
 $buttonPrimaryText: white;
-$buttonPrimaryHover: $megaman;
+$buttonPrimaryHover: $accentColourHover;
 $modalOverlay: rgba(#222f3e, 0.8);
