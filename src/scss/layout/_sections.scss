@@ -1,5 +1,24 @@
+@use "../../scss/mixins/" as *;
+
 .section {
+   width: 100%;
+
+   .section__title {
+      margin: 5rem 0;
+      text-align: center;
+      color: var(--titlePrimary);
+   }
    &--alt {
-      background-color: #c8d6e5;
+      background: white;
+      background: linear-gradient(
+            145deg,
+            rgba(67, 184, 181, 0.1) 0%,
+            rgba(57, 168, 190, 0) 40%
+         ),
+         linear-gradient(
+            299deg,
+            rgba(227, 82, 121, 0.1) 0%,
+            rgba(179, 57, 190, 0) 40%
+         );
    }
 }

@@ -12,19 +12,24 @@ const RecentWork = () => {
    return (
       <div>
          <section className="section recent-work">
-            <div className="full-width">
+            <div className="container">
                <h2 className="heading heading--secondary section__title">
                   Recent Work
                </h2>
-            </div>
-            <div className={`card--heading`}>
-               <div className="container">
-                  <CardThumbnail content={data.headExample[0]} />
-                  <CardText content={data.headExample[0]} />
+               <div className={`card--heading`}>
+                  <div className="">
+                     <CardThumbnail content={data.headExample[0]} />
+                     <CardText content={data.headExample[0]} />
+                  </div>
                </div>
+               <div className="spacer"></div>
             </div>
          </section>
-         <section className="section section--alt">{list}</section>
+         <section className="section section--alt">
+            <div className="spacer"></div>
+            <div className="container columns columns--3cols">{list}</div>
+            <div className="spacer"></div>
+         </section>
       </div>
    );
 };

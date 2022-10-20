@@ -20,8 +20,11 @@ const CardButton = (props) => {
    };
 
    return (
-      <div>
-         <button className="button card__button" onClick={handleClick}>
+      <>
+         <button
+            className="button card__button btn--primary"
+            onClick={handleClick}
+         >
             {props.data.text}
             {action === "URL" && (
                <span>
@@ -37,7 +40,7 @@ const CardButton = (props) => {
          ) : (
             ""
          )}
-      </div>
+      </>
    );
 };
 
