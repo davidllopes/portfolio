@@ -30,6 +30,7 @@ const HeaderOverlay = styled.div`
    gap: 5%;
    height: 100vh;
    padding: 15%;
+   position: relative;
    width: 100%;
 `;
 
@@ -41,4 +42,18 @@ const HeaderContainer = styled.div`
    background-color: var(--light-bg);
 `;
 
-export { Header, HeaderVideo, HeaderOverlay, HeaderInner, HeaderContainer };
+const HeaderDescription = styled.div`
+   bottom: 15%;
+   position: absolute;
+   width: 100%;
+   max-width: 50%;
+`;
+
+export {
+   Header,
+   HeaderVideo,
+   HeaderOverlay,
+   HeaderInner,
+   HeaderContainer,
+   HeaderDescription,
+};

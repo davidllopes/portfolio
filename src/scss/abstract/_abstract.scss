@@ -12,3 +12,9 @@
 .spacer {
    padding: 3rem;
 }
+
+.hidden-phone {
+   @include phone {
+      display: none;
+   }
+}

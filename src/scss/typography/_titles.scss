@@ -1,8 +1,11 @@
+@use "../variables/" as *;
+@use "../mixins/" as *;
+
 .heading {
    font-weight: 600;
 }
 .heading--jumbo {
-   font-size: 7rem;
+   font-size: clamp(2rem, 20vmin, 7rem);
    font-weight: 700;
 }
 .subheading {

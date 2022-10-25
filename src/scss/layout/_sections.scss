@@ -11,14 +11,24 @@
    &--alt {
       background: white;
       background: linear-gradient(
-            145deg,
-            rgba(67, 184, 181, 0.1) 0%,
-            rgba(57, 168, 190, 0) 40%
+            160deg,
+            rgba(67, 184, 181, 0.15) 0%,
+            rgba(57, 168, 190, 0) 30%
          ),
          linear-gradient(
-            299deg,
-            rgba(227, 82, 121, 0.1) 0%,
-            rgba(179, 57, 190, 0) 40%
+            201deg,
+            rgba(211, 37, 153, 0.15) 0%,
+            rgba(119, 33, 216, 0) 30%
+         ),
+         linear-gradient(
+            345deg,
+            rgba(42, 231, 177, 0.15) 0%,
+            rgba(32, 220, 227, 0) 30%
+         ),
+         linear-gradient(
+            25deg,
+            rgba(231, 210, 42, 0.2) 0%,
+            rgba(227, 159, 32, 0) 30%
          );
    }
 }
