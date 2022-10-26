@@ -29,7 +29,7 @@ const HeaderOverlay = styled.div`
    display: flex;
    gap: 5%;
    height: 100vh;
-   padding: 15%;
+   padding: 10%;
    position: relative;
    width: 100%;
 `;
@@ -43,10 +43,35 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderDescription = styled.div`
-   bottom: 15%;
+   bottom: 10%;
    position: absolute;
    width: 100%;
-   max-width: 50%;
+   max-width: 40%;
+`;
+
+const HeaderCardContainer = styled.ul`
+   list-type: none;
+   max-width: 480px;
+   min-height: 80vh;
+   perspective: 80vmin;
+   position: relative;
+   width: 100%;
+`;
+const HeaderCard = styled.li`
+   border-radius: 5vmin;
+   border: 0.5rem solid white;
+   box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+   width: 100%;
+`;
+const HeaderCardImg = styled.img`
+   height: 100%;
+   object-fit: cover;
+   object-position: top;
+   position: absolute;
+   width: 100%;
 `;
 
 export {
@@ -56,4 +81,7 @@ export {
    HeaderInner,
    HeaderContainer,
    HeaderDescription,
+   HeaderCardContainer,
+   HeaderCard,
+   HeaderCardImg,
 };

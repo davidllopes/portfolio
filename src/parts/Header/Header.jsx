@@ -4,6 +4,9 @@ import {
    HeaderInner,
    HeaderContainer,
    HeaderDescription,
+   HeaderCardContainer,
+   HeaderCard,
+   HeaderCardImg,
 } from "./Header.styled";
 
 const HeaderComponent = () => {
@@ -23,11 +26,40 @@ const HeaderComponent = () => {
                   </h1>
                </HeaderInner>
                <HeaderInner className="col-4 hidden-phone">
-                  <ul>
-                     <li>Lorem ipsum</li>
-                     <li>Lorem ipsum</li>
-                     <li>Lorem ipsum</li>
-                  </ul>
+                  <HeaderCardContainer className="header-card__container">
+                     <HeaderCard
+                        className="header-card__card"
+                        style={{
+                           transform:
+                              "rotateY(-5deg) translateX(-30%) translateZ(-8rem)",
+                        }}
+                     >
+                        <HeaderCardImg
+                           src="static/assets/imgs/header/header-img-1.png"
+                           alt=""
+                        />
+                     </HeaderCard>
+                     <HeaderCard
+                        className="header-card__card"
+                        style={{
+                           transform: "rotateY(-5deg) translateZ(-4rem)",
+                        }}
+                     >
+                        <HeaderCardImg
+                           src="static/assets/imgs/header/header-img-2.png"
+                           alt=""
+                        />
+                     </HeaderCard>
+                     <HeaderCard
+                        className="header-card__card"
+                        style={{ transform: "rotateY(-5deg) translateX(30%)" }}
+                     >
+                        <HeaderCardImg
+                           src="static/assets/imgs/header/header-img-3.png"
+                           alt=""
+                        />
+                     </HeaderCard>
+                  </HeaderCardContainer>
                </HeaderInner>
             </HeaderOverlay>
          </Header>
