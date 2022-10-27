@@ -11,10 +11,35 @@
 }
 .spacer {
    padding: 3rem;
+   &--no-space {
+      padding: 0.1px;
+   }
 }
 
 .hidden-phone {
-   @include phone {
+   display: none;
+   @include tablet_min {
+      display: initial;
+   }
+}
+
+.hidden-tablet-min {
+   @include tablet_min {
       display: none;
    }
+}
+.hidden-tablet {
+   @include tablet {
+      display: none;
+   }
+}
+
+.hidden-desktop {
+   @include desktop {
+      display: none;
+   }
+}
+
+.crop {
+   overflow: hidden;
 }

@@ -21,7 +21,7 @@
    "workCards": [
       {
          "title": "Archer Game",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
          "imgsPath": "static/assets/imgs/examples/archer/",
          "thumbnail": "play.png",
@@ -30,7 +30,7 @@
       },
       {
          "title": "Archer Game",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
          "imgsPath": "static/assets/imgs/examples/archer/",
          "thumbnail": "play.png",
@@ -39,7 +39,7 @@
       },
       {
          "title": "Archer Game",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
          "imgsPath": "static/assets/imgs/examples/archer/",
          "thumbnail": "play.png",
@@ -50,7 +50,7 @@
    "moreWorkExamples": [
       {
          "title": "Onboarding Site",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "ReactJS"],
          "imgsPath": "static/assets/imgs/examples/avado-life/",
          "thumbnail": "play.png",
@@ -60,7 +60,7 @@
 
       {
          "title": "Onboarding Site",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a different score on each ring. The score is tallied up at the end of the game.",
+         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "ReactJS"],
          "imgsPath": "static/assets/imgs/examples/avado-life/",
          "thumbnail": "play.png",

@@ -5,8 +5,11 @@
 
    .section__title {
       margin: 5rem 0;
-      text-align: center;
       color: var(--titlePrimary);
+
+      &--center {
+         text-align: center;
+      }
    }
    &--alt {
       background: white;

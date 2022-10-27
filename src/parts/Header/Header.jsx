@@ -12,18 +12,22 @@ import {
 const HeaderComponent = () => {
    return (
       <HeaderContainer>
-         <Header className="Header">
-            <HeaderOverlay>
-               <HeaderDescription>
-                  <h4 className="subheading">
+         <Header className="header">
+            <HeaderOverlay className="container crop">
+               <HeaderDescription className="hidden-phone">
+                  <h5 className="subheading heading--quinary">
                      a Creative Developer with a passion for coding,
                      interactivity and visual design
-                  </h4>
+                  </h5>
                </HeaderDescription>
                <HeaderInner className="col-8">
                   <h1 className="heading heading--jumbo special-font">
                      Hi, I'm David
                   </h1>
+                  <h5 className="subheading heading--quinary hidden-tablet-min">
+                     a Creative Developer with a passion for coding,
+                     interactivity and visual design
+                  </h5>
                </HeaderInner>
                <HeaderInner className="col-4 hidden-phone">
                   <HeaderCardContainer className="header-card__container">
@@ -31,7 +35,7 @@ const HeaderComponent = () => {
                         className="header-card__card"
                         style={{
                            transform:
-                              "rotateY(-5deg) translateX(-30%) translateZ(-8rem)",
+                              "rotateY(-5deg) translateX(30%) translateZ(-8rem)",
                         }}
                      >
                         <HeaderCardImg
@@ -52,7 +56,7 @@ const HeaderComponent = () => {
                      </HeaderCard>
                      <HeaderCard
                         className="header-card__card"
-                        style={{ transform: "rotateY(-5deg) translateX(30%)" }}
+                        style={{ transform: "rotateY(-5deg) translateX(-30%)" }}
                      >
                         <HeaderCardImg
                            src="static/assets/imgs/header/header-img-3.png"

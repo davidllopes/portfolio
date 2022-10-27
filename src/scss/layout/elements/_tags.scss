@@ -17,6 +17,9 @@
          font-weight: 700;
          margin-right: 5px;
          padding: 3px 10px;
+         &:last-child {
+            margin-right: 0;
+         }
       }
    }
 }

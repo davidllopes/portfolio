@@ -44,25 +44,6 @@
       }
    }
 
-   & &__text {
-      width: 100%;
-      padding: 1rem;
-
-      &__title {
-         color: var(--titlePrimary);
-         margin-bottom: 0.5rem;
-         margin-top: 0.5rem;
-         text-align: center;
-         @include tablet_min {
-            text-align: left;
-         }
-      }
-
-      p {
-         margin: 1rem 0;
-      }
-   }
-
    & &__actions {
       text-align: center;
    }
@@ -87,26 +68,45 @@
             width: 100%;
          }
       }
-      .card__text {
-         padding-top: 1rem;
-         width: auto;
+   }
+}
 
-         &__title {
-            @include tablet_min {
-               text-align: center;
-            }
-         }
+.card__text {
+   padding-top: 1rem;
+   width: auto;
+   width: 100%;
+   padding: 1rem;
 
-         & .tags {
-            @include tablet_min {
-               text-align: center;
-            }
-         }
+   &__title {
+      color: var(--titlePrimary);
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+      text-align: center;
+      @include tablet_min {
+         text-align: left;
       }
-      .card__actions {
-         @include tablet_min {
-            text-align: center;
-         }
+   }
+
+   p {
+      margin: 1rem 0;
+   }
+
+   &__title {
+      text-align: left;
+      @include tablet_min {
+         text-align: center;
+      }
+   }
+
+   & .tags {
+      text-align: left;
+      @include tablet_min {
+         text-align: center;
+      }
+   }
+   .card__actions {
+      @include tablet_min {
+         text-align: center;
       }
    }
 }

@@ -1,8 +1,9 @@
 $phone-width: 640px;
 $tablet-width: 768px;
-$desktop-width: 1024px;
+$desktop-width: 1200px;
 
 :root {
+   --max-width-t: #{$tablet-width};
    --max-width-d: #{$desktop-width};
 }
 

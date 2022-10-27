@@ -3,38 +3,43 @@
 
 .heading {
    font-weight: 600;
+   letter-spacing: -0.05em;
 }
 .heading--jumbo {
-   font-size: clamp(2rem, 20vmin, 7rem);
+   font-size: 7rem;
    font-weight: 700;
+   @include phone {
+      font-size: clamp(2rem, 20vmin, 7rem);
+   }
 }
 .subheading {
    margin: 1rem 0;
    font-weight: 300;
    line-height: 1.5;
+   letter-spacing: -0.02em;
 }
 
 h1,
 .heading--primary {
-   font-size: 5rem;
+   font-size: 6rem;
 }
 
 h2,
 .heading--secondary {
-   font-size: 3.5rem;
+   font-size: 4.5rem;
 }
 
 h3,
 .heading--tertiary {
-   font-size: 2rem;
+   font-size: 3rem;
 }
 
 h4,
 .heading--quaternary {
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 
 h5,
 .heading--quinary {
-   font-size: 1.25rem;
+   font-size: 1.5rem;
 }

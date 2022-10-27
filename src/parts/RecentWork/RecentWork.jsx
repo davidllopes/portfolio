@@ -16,6 +16,8 @@ const RecentWork = () => {
                <h2 className="heading heading--secondary section__title">
                   Recent Work
                </h2>
+            </div>
+            <div className="container crop">
                <div className={`card--heading`}>
                   <div className="">
                      <CardThumbnail content={data.headExample[0]} />
@@ -26,7 +28,7 @@ const RecentWork = () => {
             </div>
          </section>
          <section className="section section--alt">
-            <div className="spacer"></div>
+            <div className="spacer spacer--no-space"></div>
             <div className="container">
                <h3 className="heading heading--tertiary section__title">
                   Learning Games
@@ -36,10 +38,10 @@ const RecentWork = () => {
             <div className="spacer"></div>
          </section>
          <section className="section">
-            <div className="spacer"></div>
+            <div className="spacer spacer--no-space"></div>
             <div className="container">
                <h3 className="heading heading--tertiary section__title">
-                  Learning Games
+                  More Projects
                </h3>
             </div>
             <div className="container columns columns--2cols">

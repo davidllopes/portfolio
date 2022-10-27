@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import device from "../../utilities/mediaQueries";
 
 const Header = styled.header`
    background-color: #31e8b8;
@@ -29,7 +30,7 @@ const HeaderOverlay = styled.div`
    display: flex;
    gap: 5%;
    height: 100vh;
-   padding: 10%;
+   /* padding: 10%; */
    position: relative;
    width: 100%;
 `;
@@ -51,14 +52,14 @@ const HeaderDescription = styled.div`
 
 const HeaderCardContainer = styled.ul`
    list-type: none;
-   max-width: 480px;
-   min-height: 80vh;
-   perspective: 80vmin;
+   max-width: calc(50vh * (9 / 16));
+   min-height: 50vh;
+   perspective: 800px;
    position: relative;
    width: 100%;
 `;
 const HeaderCard = styled.li`
-   border-radius: 5vmin;
+   border-radius: clamp(1rem, 5vmin, 3rem);
    border: 0.5rem solid white;
    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
    height: 100%;
