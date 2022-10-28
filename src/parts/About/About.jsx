@@ -1,7 +1,8 @@
 const About = () => {
    return (
       <>
-         <section className="section">
+         <section className="section section--alt">
+            <div className="spacer spacer--min-space"></div>
             <div className="container">
                <h2 className="heading heading--secondary section__title">
                   Power ups
@@ -38,6 +39,8 @@ const About = () => {
                   promoting diversity and inclusion, and mental health within
                   the company.
                </p>
+               <br />
+               <br />
                <p>
                   I'm skilled in various web development languages such as HTML,
                   CSS/Sass, JS, jQuery, React, PHP, SQL.

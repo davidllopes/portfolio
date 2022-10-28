@@ -11,7 +11,7 @@
 }
 .spacer {
    padding: 3rem;
-   &--no-space {
+   &--min-space {
       padding: 0.1px;
    }
 }
@@ -33,7 +33,11 @@
       display: none;
    }
 }
-
+.hidden-laptop {
+   @include laptop {
+      display: none;
+   }
+}
 .hidden-desktop {
    @include desktop {
       display: none;

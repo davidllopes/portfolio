@@ -30,7 +30,7 @@ const HeaderOverlay = styled.div`
    display: flex;
    gap: 5%;
    height: 100vh;
-   /* padding: 10%; */
+   padding: 10%;
    position: relative;
    width: 100%;
 `;
@@ -59,8 +59,7 @@ const HeaderCardContainer = styled.ul`
    width: 100%;
 `;
 const HeaderCard = styled.li`
-   border-radius: clamp(1rem, 5vmin, 3rem);
-   border: 0.5rem solid white;
+   border-radius: clamp(1rem, 5vmin, 2rem);
    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
    height: 100%;
    position: absolute;

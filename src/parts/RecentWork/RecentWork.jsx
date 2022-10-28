@@ -13,7 +13,7 @@ const RecentWork = () => {
       <div>
          <section className="section recent-work">
             <div className="container">
-               <h2 className="heading heading--secondary section__title">
+               <h2 className="heading heading--secondary section__title section__title--center">
                   Recent Work
                </h2>
             </div>
@@ -28,7 +28,7 @@ const RecentWork = () => {
             </div>
          </section>
          <section className="section section--alt">
-            <div className="spacer spacer--no-space"></div>
+            <div className="spacer spacer--min-space"></div>
             <div className="container">
                <h3 className="heading heading--tertiary section__title">
                   Learning Games
@@ -38,7 +38,7 @@ const RecentWork = () => {
             <div className="spacer"></div>
          </section>
          <section className="section">
-            <div className="spacer spacer--no-space"></div>
+            <div className="spacer spacer--min-space"></div>
             <div className="container">
                <h3 className="heading heading--tertiary section__title">
                   More Projects

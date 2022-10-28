@@ -13,7 +13,7 @@ const HeaderComponent = () => {
    return (
       <HeaderContainer>
          <Header className="header">
-            <HeaderOverlay className="container crop">
+            <HeaderOverlay className="crop">
                <HeaderDescription className="hidden-phone">
                   <h5 className="subheading heading--quinary">
                      a Creative Developer with a passion for coding,
@@ -29,7 +29,7 @@ const HeaderComponent = () => {
                      interactivity and visual design
                   </h5>
                </HeaderInner>
-               <HeaderInner className="col-4 hidden-phone">
+               <HeaderInner className="col-4 hidden-phone hidden-tablet">
                   <HeaderCardContainer className="header-card__container">
                      <HeaderCard
                         className="header-card__card"

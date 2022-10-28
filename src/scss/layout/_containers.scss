@@ -1,7 +1,7 @@
 @use "../../scss/mixins/" as *;
 .container {
    width: 100%;
-   max-width: var(--max-width-d);
+   max-width: var(--max-width-l);
    padding: 0 1rem;
    margin: auto;
 
@@ -15,6 +15,9 @@
 
    &--small {
       max-width: var(--max-width-t);
+   }
+   &--large {
+      max-width: var(--max-width-d);
    }
 
    &.columns {
@@ -42,7 +45,7 @@
    }
 }
 
-@include desktop {
+@include laptop {
    .col-1 {
       max-width: 8.33%;
    }
