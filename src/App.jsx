@@ -5,6 +5,7 @@ import HeaderComponent from "./parts/Header/Header";
 import LoadingAnim from "./components/Loader/Loader";
 import RecentWork from "./parts/RecentWork/RecentWork.jsx";
 import About from "./parts/About/About";
+import TopBar from "./components/TopBar/TopBar";
 
 const AppContainer = styled.div`
    opacity: 0;
@@ -34,6 +35,7 @@ function App() {
             <RecentWork />
             <About />
             <FooterContainer />
+            <TopBar></TopBar>
          </AppContainer>
       </div>
    );

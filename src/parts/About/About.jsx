@@ -1,4 +1,23 @@
+import PowerUp from "../../components/PowerUp/PowerUp";
+import data from "./powerUps.json";
+
 const About = () => {
+   const webArray = data.web.map((item) => (
+      <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
+         {item.name}
+      </PowerUp>
+   ));
+   const designArray = data.design.map((item) => (
+      <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
+         {item.name}
+      </PowerUp>
+   ));
+   const otherArray = data.other.map((item) => (
+      <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
+         {item.name}
+      </PowerUp>
+   ));
+
    return (
       <>
          <section className="section section--alt">
@@ -7,9 +26,30 @@ const About = () => {
                <h2 className="heading heading--secondary section__title">
                   Power ups
                </h2>
-
-               <div className="spacer"></div>
             </div>
+            <div className="container columns">
+               <div className="col-6">
+                  <h3 className="heading heading--tertiary sub-section__title">
+                     Web
+                  </h3>
+                  <div className="container--flex-wrap">{webArray}</div>
+               </div>
+               <div className="col-6">
+                  <h3 className="heading heading--tertiary sub-section__title">
+                     Design
+                  </h3>
+                  <div className="container--flex-wrap">{designArray}</div>
+               </div>
+            </div>
+            <div className="container columns">
+               <div className="col-6">
+                  <h3 className="heading heading--tertiary sub-section__title">
+                     Other
+                  </h3>
+                  <div className="container--flex-wrap">{otherArray}</div>
+               </div>
+            </div>
+            <div className="spacer"></div>
          </section>
 
          <section className="section">

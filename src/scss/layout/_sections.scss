@@ -2,39 +2,55 @@
 
 .section {
    width: 100%;
+   min-height: 100vh;
 
-   .section__title {
+   &__title {
       margin: 5rem 0;
       color: var(--titlePrimary);
 
       &--center {
          text-align: center;
          @include laptop {
-            font-size: clamp(2rem, 20vmin, 7rem);
+            font-size: clamp(2rem, 10vmin, 7rem);
          }
       }
    }
    &--alt {
-      background: white;
+      background: #ddecfe;
       background: linear-gradient(
             160deg,
-            rgba(67, 184, 181, 0.15) 0%,
+            rgba(221, 236, 254, 0.8) 0%,
+            rgba(221, 236, 254, 0.5) 100%
+         ),
+         linear-gradient(
+            150deg,
+            rgba(15, 142, 216, 0.4) 0%,
             rgba(57, 168, 190, 0) 30%
          ),
          linear-gradient(
             201deg,
-            rgba(211, 37, 153, 0.15) 0%,
+            rgba(211, 37, 153, 0.4) 0%,
             rgba(119, 33, 216, 0) 30%
          ),
          linear-gradient(
             345deg,
-            rgba(42, 231, 177, 0.15) 0%,
+            rgba(42, 231, 177, 0.4) 0%,
             rgba(32, 220, 227, 0) 30%
          ),
          linear-gradient(
             25deg,
-            rgba(231, 210, 42, 0.2) 0%,
+            rgba(255, 226, 10, 0.4) 0%,
             rgba(227, 159, 32, 0) 30%
          );
+   }
+   .sub-section {
+      &__title {
+         margin: 1em 0;
+         @include laptop {
+            &:first-of-type {
+               margin-top: 0;
+            }
+         }
+      }
    }
 }

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import device from "../../utilities/mediaQueries";
 
 const Header = styled.header`
    background-color: #31e8b8;
@@ -52,14 +51,14 @@ const HeaderDescription = styled.div`
 
 const HeaderCardContainer = styled.ul`
    list-type: none;
-   max-width: calc(50vh * (9 / 16));
-   min-height: 50vh;
+   max-width: calc(60vmin * (9 / 16));
+   min-height: 60vmin;
    perspective: 800px;
    position: relative;
    width: 100%;
 `;
 const HeaderCard = styled.li`
-   border-radius: clamp(1rem, 5vmin, 2rem);
+   border-radius: clamp(1rem, 3vmin, 2rem);
    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
    height: 100%;
    position: absolute;

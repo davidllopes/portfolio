@@ -1,0 +1,56 @@
+{
+   "web": [
+      {
+         "name": "HTML5",
+         "icon": "fa-brands fa-html5"
+      },
+      {
+         "name": "CSS3",
+         "icon": "fa-brands fa-css3"
+      },
+      {
+         "name": "SASS",
+         "icon": "fa-brands fa-sass"
+      },
+      {
+         "name": "JavaScript",
+         "icon": "fa-brands fa-js"
+      },
+      {
+         "name": "React.js",
+         "icon": "fa-brands fa-react"
+      },
+      {
+         "name": "HubSpot",
+         "icon": "fa-brands fa-hubspot"
+      },
+      {
+         "name": "GitHub",
+         "icon": "fa-brands fa-github"
+      },
+      {
+         "name": "BitBucket",
+         "icon": "fa-brands fa-bitbucket"
+      }
+   ],
+   "design": [
+      { "name": "Adobe After Effects", "img": "after-effects.svg" },
+      { "name": "Adobe Animate", "img": "animate.svg" },
+      { "name": "Adobe Audition", "img": "audition.svg" },
+      { "name": "Adobe Illustrator", "img": "illustrator.svg" },
+      { "name": "Adobe InDesign", "img": "indesign.svg" },
+      { "name": "Adobe Photoshop", "img": "photoshop.svg" },
+      { "name": "Adobe Premiere", "img": "premiere.svg" },
+      { "name": "Adobe XD", "img": "xd.svg" },
+      { "name": "Blender 3D", "img": "blender.svg" },
+      { "name": "Spark AR", "img": "sparkAR.png" }
+   ],
+   "other": [
+      { "name": "Asana", "img": "asana.svg" },
+      { "name": "Hotjar", "icon": "fa-brands fa-hotjar" },
+      { "name": "Jira", "icon": "fa-brands fa-jira" },
+      { "name": "Markdown", "icon": "fa-brands fa-markdown" },
+      { "name": "Salesforce", "icon": "fa-brands fa-salesforce" },
+      { "name": "Wordpress", "icon": "fa-brands fa-wordpress" }
+   ]
+}
