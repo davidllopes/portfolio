@@ -21,12 +21,14 @@ const About = () => {
    return (
       <>
          <section className="section section--alt">
-            <div className="spacer spacer--min-space"></div>
+            <div className="spacer"></div>
             <div className="container">
-               <h2 className="heading heading--secondary section__title">
+               <h2 className="heading heading--secondary heading--small-margin">
                   Power ups
                </h2>
+               <h4 className="heading heading--quaternary">Knowledge/Skills</h4>
             </div>
+            <div className="spacer"></div>
             <div className="container columns">
                <div className="col-6">
                   <h3 className="heading heading--tertiary sub-section__title">
@@ -41,6 +43,7 @@ const About = () => {
                   <div className="container--flex-wrap">{designArray}</div>
                </div>
             </div>
+            <div className="spacer"></div>
             <div className="container columns">
                <div className="col-6">
                   <h3 className="heading heading--tertiary sub-section__title">

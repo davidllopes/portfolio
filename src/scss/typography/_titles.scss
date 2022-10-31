@@ -3,12 +3,18 @@
 .heading {
    font-weight: 600;
    letter-spacing: -0.05em;
-}
-.heading--jumbo {
-   font-size: 7rem;
-   font-weight: 700;
-   @include phone {
-      font-size: clamp(2rem, 20vmin, 7rem);
+   &--jumbo {
+      font-size: 7rem;
+      font-weight: 700;
+      @include phone {
+         font-size: clamp(2rem, 20vmin, 7rem);
+      }
+   }
+   &--zero-margin {
+      margin: 0;
+   }
+   &--small-margin {
+      margin: 0.2em 0;
    }
 }
 .subheading {

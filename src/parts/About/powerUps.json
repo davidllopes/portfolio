@@ -47,6 +47,7 @@
    ],
    "other": [
       { "name": "Asana", "img": "asana.svg" },
+      { "name": "AWS", "icon": "fa-brands fa-aws" },
       { "name": "Hotjar", "icon": "fa-brands fa-hotjar" },
       { "name": "Jira", "icon": "fa-brands fa-jira" },
       { "name": "Markdown", "icon": "fa-brands fa-markdown" },

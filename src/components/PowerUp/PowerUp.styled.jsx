@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 const PowerUpStyled = styled.div`
-   align-items: center;
-   display: inline-flex;
-   flex-direction: column;
-   max-width: 18%;
+   max-width: 17%;
    text-align: center;
    width: 100%;
 `;
@@ -15,7 +12,6 @@ const PowerUpImg = styled.img`
 `;
 const PowerUpIcon = styled.div`
    font-size: clamp(2rem, 5vmin, 2.8rem);
-   max-width: clamp(2rem, 5vmin, 2.8rem);
    width: 100%;
 `;
 const PowerUpTxt = styled.div`
