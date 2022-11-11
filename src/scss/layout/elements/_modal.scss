@@ -1,15 +1,25 @@
 @use "../../variables" as *;
 
 .modal-container {
-    background-color: $modalOverlay;
+   background-color: $modalOverlay;
 
-    .modal {
-        .close__btn {
-            background-color: transparent;
-            color: $buttonPrimary;
-            padding: 5px;
-            height: 35px;
-            width: 35px;
-        }
-    }
+   .modal {
+      position: relative;
+      &__img {
+         width: calc(100% - 3rem);
+         max-height: 600px;
+         object-fit: contain;
+      }
+      .close__btn {
+         font-size: 1.5rem;
+         background-color: transparent;
+         color: $buttonPrimary;
+         padding: 5px;
+         height: 35px;
+         width: 35px;
+         position: absolute;
+         top: 1rem;
+         right: 1rem;
+      }
+   }
 }

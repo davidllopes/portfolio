@@ -4,6 +4,10 @@
    width: 100%;
    min-height: 100vh;
 
+   &--min-height-0 {
+      min-height: 0;
+   }
+
    &__title {
       margin: 5rem 0;
       color: var(--titlePrimary);
@@ -52,5 +56,15 @@
             }
          }
       }
+   }
+}
+
+.profile-pic {
+   width: 100%;
+   max-width: 200px;
+   margin: auto;
+   &__img {
+      border-radius: 300px;
+      object-fit: cover;
    }
 }

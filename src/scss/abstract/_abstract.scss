@@ -12,6 +12,9 @@
 .spacer {
    padding: 3rem;
    width: 100%;
+   &--small {
+      padding: 2rem;
+   }
    &--min-space {
       padding: 0.1px;
    }

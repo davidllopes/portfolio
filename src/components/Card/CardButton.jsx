@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import Modal from "../Modal/Modal.jsx";
 
-const CardButton = (props) => {
+const CardButton = ({ data }) => {
    const [modalIsOpen, setModalOpen] = useState(false);
-   const action = props.data.action;
+   const action = data.btn.action;
 
    const handleClick = () => {
       if (action === "URL") {
-         window.open(props.data.URL, "_blank");
+         window.open(data.URL, "_blank");
       } else {
          setModalOpen(true);
       }
@@ -25,7 +25,7 @@ const CardButton = (props) => {
             className="button card__button btn--primary"
             onClick={handleClick}
          >
-            {props.data.text}
+            {data.btn.text}
             {action === "URL" && (
                <span>
                   <span> </span>
@@ -35,7 +35,11 @@ const CardButton = (props) => {
          </button>
          {modalIsOpen ? (
             <Modal onClose={handleClose}>
-               <div></div>
+               <img
+                  src={`${data.imgsPath}/${data.imgs[0]}`}
+                  className="img-responsive modal__img"
+                  alt=""
+               />
             </Modal>
          ) : (
             ""

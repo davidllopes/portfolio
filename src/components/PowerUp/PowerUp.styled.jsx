@@ -7,11 +7,11 @@ const PowerUpStyled = styled.div`
 `;
 
 const PowerUpImg = styled.img`
-   height: clamp(2rem, 5vmin, 2.8rem);
-   width: clamp(2rem, 5vmin, 2.8rem); ;
+   height: clamp(2.5rem, 5vw, 2.8rem);
+   width: clamp(2.5rem, 5vw, 2.8rem); ;
 `;
 const PowerUpIcon = styled.div`
-   font-size: clamp(2rem, 5vmin, 2.8rem);
+   font-size: clamp(2.5rem, 5vw, 2.8rem);
    width: 100%;
 `;
 const PowerUpTxt = styled.div`

@@ -29,42 +29,59 @@
          "btn": { "text": "View", "action": "modal" }
       },
       {
-         "title": "Archer Game",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
+         "title": "You're Hired!",
+         "description": "This HTML5 game was developed specifically for a CIPD conference in London, where our company had a stand with a touchscreen for visitors to play. After playing, visitors were asked to input their contact details to win a prize.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
-         "imgsPath": "static/assets/imgs/examples/archer/",
-         "thumbnail": "play.png",
-         "imgs": ["start.png", "play.png", "questions.png", "target.png"],
+         "imgsPath": "static/assets/imgs/examples/youre-hired/",
+         "thumbnail": "questions.png",
+         "imgs": [
+            "development.jpg",
+            "home.png",
+            "questions.png",
+            "input.png",
+            "scoreboard.png"
+         ],
          "btn": { "text": "View", "action": "modal" }
       },
       {
-         "title": "Archer Game",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
+         "title": "True Detective",
+         "description": "In this game, users need to find the true and false statements. Correct answers will be given in the end.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
-         "imgsPath": "static/assets/imgs/examples/archer/",
-         "thumbnail": "play.png",
-         "imgs": ["start.png", "play.png", "questions.png", "target.png"],
+         "imgsPath": "static/assets/imgs/examples/true-detective/",
+         "thumbnail": "title.png",
+         "imgs": [
+            "title.png",
+            "intro.png",
+            "questions.png",
+            "feedback.png",
+            "answers.png"
+         ],
          "btn": { "text": "View", "action": "modal" }
       }
    ],
    "moreWorkExamples": [
       {
          "title": "Onboarding Site",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
+         "description": "This React mini-site was built for our internal People team. It was designed as part of the new starters onboarding journey, informing them of the culture, ways of working, growth and development, etc.",
          "tech": ["HTML", "SCSS", "JS", "ReactJS"],
          "imgsPath": "static/assets/imgs/examples/avado-life/",
-         "thumbnail": "play.png",
-         "imgs": ["start.png", "play.png", "questions.png", "target.png"],
+         "thumbnail": "popup.png",
+         "imgs": [
+            "culture.png",
+            "growth.png",
+            "ways-working.png",
+            "working-life.png"
+         ],
          "btn": { "text": "View", "action": "modal" }
       },
 
       {
-         "title": "Onboarding Site",
-         "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
-         "tech": ["HTML", "SCSS", "JS", "ReactJS"],
-         "imgsPath": "static/assets/imgs/examples/avado-life/",
-         "thumbnail": "play.png",
-         "imgs": ["start.png", "play.png", "questions.png", "target.png"],
+         "title": "FastFutures Learner Journey",
+         "description": "Designed for one of Avado's leading online programmes, this small interactive is a map of the learner's journey through the modules, weeks, and activities.",
+         "tech": ["HTML", "SCSS", "JS"],
+         "imgsPath": "static/assets/imgs/examples/fastfutures/",
+         "thumbnail": "intro.png",
+         "imgs": ["intro.png", "desktop.png", "mobile.png"],
          "btn": { "text": "View", "action": "modal" }
       }
    ]

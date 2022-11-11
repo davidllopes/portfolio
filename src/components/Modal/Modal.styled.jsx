@@ -17,6 +17,7 @@ const ModalBox = styled.div`
    border-radius: 10px;
    max-width: var(--max-width-l);
    min-height: 300px;
+   padding: 2rem;
    width: 100%;
 `;
 

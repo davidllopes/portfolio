@@ -26,36 +26,36 @@ const About = () => {
                <h2 className="heading heading--secondary heading--small-margin">
                   Power ups
                </h2>
-               <h4 className="heading heading--quaternary">Knowledge/Skills</h4>
+               <h3 className="heading heading--tertiary">Knowledge/ Skills</h3>
             </div>
             <div className="spacer"></div>
             <div className="container columns">
                <div className="col-6">
-                  <h3 className="heading heading--tertiary sub-section__title">
+                  <h4 className="heading heading--quaternary sub-section__title">
                      Web
-                  </h3>
+                  </h4>
                   <div className="container--flex-wrap">{webArray}</div>
                </div>
                <div className="col-6">
-                  <h3 className="heading heading--tertiary sub-section__title">
+                  <h4 className="heading heading--quaternary sub-section__title">
                      Design
-                  </h3>
+                  </h4>
                   <div className="container--flex-wrap">{designArray}</div>
                </div>
             </div>
-            <div className="spacer"></div>
+            <div className="spacer spacer--small"></div>
             <div className="container columns">
                <div className="col-6">
-                  <h3 className="heading heading--tertiary sub-section__title">
+                  <h4 className="heading heading--quaternary sub-section__title">
                      Other
-                  </h3>
+                  </h4>
                   <div className="container--flex-wrap">{otherArray}</div>
                </div>
             </div>
             <div className="spacer"></div>
          </section>
 
-         <section className="section">
+         <section className="section section--min-height-0">
             <div className="container">
                <h2 className="heading heading--secondary section__title">
                   About me
@@ -100,6 +100,15 @@ const About = () => {
                </p>
                <p>Based in London, UK.</p>
                <div className="spacer"></div>
+            </div>
+            <div className="container">
+               <div className="profile-pic">
+                  <img
+                     className="profile-pic__img img-responsive"
+                     src="static/assets/imgs/david.jpg"
+                     alt=""
+                  />
+               </div>
             </div>
          </section>
       </>

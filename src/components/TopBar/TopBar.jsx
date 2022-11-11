@@ -17,7 +17,7 @@ const TopBar = () => {
                   rel="noreferrer"
                   title="Behance"
                >
-                  <i class="fa-brands fa-behance" aria-hidden="true"></i>
+                  <i className="fa-brands fa-behance" aria-hidden="true"></i>
                </SocialButton>
                <SocialButton
                   href="https://www.linkedin.com/in/davidllopes/"
@@ -25,7 +25,7 @@ const TopBar = () => {
                   title="LinkedIn"
                   rel="noreferrer"
                >
-                  <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                </SocialButton>
                <SocialButton
                   href="https://www.twitter.com/davidl07"
@@ -41,7 +41,7 @@ const TopBar = () => {
                   rel="noreferrer"
                   title="Dribbble"
                >
-                  <i class="fa-brands fa-dribbble" aria-hidden="true"></i>
+                  <i className="fa-brands fa-dribbble" aria-hidden="true"></i>
                </SocialButton>
                <SocialButton
                   href="https://www.pinterest.com/davidllopes"
@@ -49,7 +49,7 @@ const TopBar = () => {
                   rel="noreferrer"
                   title="Pinterest"
                >
-                  <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+                  <i className="fa-brands fa-pinterest" aria-hidden="true"></i>
                </SocialButton>
             </SocialsStyled>
          </TopBarStyled>

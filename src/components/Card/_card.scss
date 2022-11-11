@@ -12,6 +12,7 @@
       margin-bottom: 5rem;
       position: relative;
       overflow: hidden;
+      width: 100%;
    }
    &--alternative {
       .container {
@@ -21,14 +22,27 @@
       }
    }
 
-   & &__thumbnail {
+   &__thumbnail {
       width: 100%;
 
       img {
          width: 100%;
-         height: auto;
+         @include tablet_min {
+            height: calc(((100vw / 3) - (2rem * 3)) * (3 / 4.5));
+            max-height: 230px;
+         }
          object-fit: cover;
          overflow: hidden;
+      }
+
+      &--cols2 {
+         img {
+            @include tablet_min {
+               height: calc(((100vw / 2) - (2rem * 3)) * (3 / 4.5));
+               max-height: 300px;
+            }
+            object-fit: contain;
+         }
       }
 
       &--big {
@@ -44,8 +58,9 @@
       }
    }
 
-   & &__actions {
+   &__actions {
       text-align: center;
+      padding-bottom: 2rem;
    }
 
    &--heading {
@@ -59,6 +74,8 @@
          img {
             margin-bottom: 1rem;
             transform: scale(1.5);
+            height: auto;
+            max-height: unset;
          }
 
          @include tablet_min {
@@ -72,10 +89,10 @@
 }
 
 .card__text {
-   padding-top: 1rem;
    width: auto;
    width: 100%;
-   padding: 1rem;
+   padding: 0 1rem;
+   flex: 1;
 
    &__title {
       color: var(--titlePrimary);

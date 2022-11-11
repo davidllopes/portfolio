@@ -1,4 +1,5 @@
 import Card from "../../components/Card/Card";
+import CardButton from "../../components/Card/CardButton";
 import CardText from "../../components/Card/CardText";
 import CardThumbnail from "../../components/Card/CardThumbnail";
 import data from "./RecentWork.json";
@@ -22,6 +23,11 @@ const RecentWork = () => {
                   <div className="">
                      <CardThumbnail content={data.headExample[0]} />
                      <CardText content={data.headExample[0]} />
+                     <div className="card__actions">
+                        {data.headExample[0].btn && (
+                           <CardButton data={data.headExample[0]}></CardButton>
+                        )}
+                     </div>
                   </div>
                </div>
                <div className="spacer"></div>
@@ -46,12 +52,32 @@ const RecentWork = () => {
             </div>
             <div className="container columns columns--2cols">
                <div>
-                  <CardThumbnail content={data.moreWorkExamples[0]} />
+                  <CardThumbnail
+                     className="card__thumbnail--cols2"
+                     content={data.moreWorkExamples[0]}
+                  />
                   <CardText content={data.moreWorkExamples[0]} />
+                  <div className="card__actions">
+                     {data.moreWorkExamples[0].btn && (
+                        <CardButton
+                           data={data.moreWorkExamples[0]}
+                        ></CardButton>
+                     )}
+                  </div>
                </div>
                <div>
-                  <CardThumbnail content={data.moreWorkExamples[0]} />
-                  <CardText content={data.moreWorkExamples[0]} />
+                  <CardThumbnail
+                     className="card__thumbnail--cols2"
+                     content={data.moreWorkExamples[1]}
+                  />
+                  <CardText content={data.moreWorkExamples[1]} />
+                  <div className="card__actions">
+                     {data.moreWorkExamples[1].btn && (
+                        <CardButton
+                           data={data.moreWorkExamples[1]}
+                        ></CardButton>
+                     )}
+                  </div>
                </div>
             </div>
             <div className="spacer"></div>

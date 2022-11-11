@@ -1,5 +1,3 @@
-import CardButton from "./CardButton";
-
 const TagList = (props) => {
    return props.tags.map((item) => (
       <span className="tag tag__span" key={item}>
@@ -23,11 +21,6 @@ export default function CardText(props) {
                <TagList tags={props.content.tech} />
             </div>
             <p>{props.content.description && props.content.description}</p>
-            <div className="card__actions">
-               {props.content.btn && (
-                  <CardButton data={props.content.btn}></CardButton>
-               )}
-            </div>
          </div>
       </div>
    );
