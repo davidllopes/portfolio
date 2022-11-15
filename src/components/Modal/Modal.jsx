@@ -11,8 +11,7 @@ const Modal = (props) => {
    const handleUserKeyPress = useCallback(
       (event) => {
          const { key, keyCode } = event;
-         console.log(key);
-         if (keyCode === 27 || key === 27) {
+         if (keyCode === 27 || key === 27 || key === "Escape") {
             handleClose();
          }
       },

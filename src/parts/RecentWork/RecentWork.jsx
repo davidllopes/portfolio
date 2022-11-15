@@ -6,7 +6,6 @@ import data from "./RecentWork.json";
 import "./_recent-work.scss";
 
 const RecentWork = () => {
-   console.log(data);
    const list = data.workCards.map((item) => (
       <Card className="recent" content={item} key={item.title}></Card>
    ));
