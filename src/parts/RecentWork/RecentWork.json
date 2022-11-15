@@ -6,7 +6,7 @@
          "title": "Avado Landing Page",
          "description": "A landing page for a report Avado Learning made on why organisations’ success depends on their approach to learning. This landing page was built on Hubspot using custom components, custom animated charts, a donut chart using Chart.js, and parallax photos to separate some sections.",
          "tech": ["HubL", "CSS", "JS", "jQuery", "Chart.js"],
-         "imgsPath": "static/assets/imgs/examples/future-choices/",
+         "imgsPath": "static/assets/imgs/examples/future-choices",
          "thumbnail": "Mockup1x.png",
          "thumbnail2x": "Mockup2x.png",
          "bigThumbnail": false,
@@ -23,7 +23,7 @@
          "title": "Archer Game",
          "description": "An online learning quiz with a bonus round after each question where users need to click the screen to shoot a moving bow and arrow. The bonus round includes a target with a specific score on each ring. The score is tallied up at the end of the game.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
-         "imgsPath": "static/assets/imgs/examples/archer/",
+         "imgsPath": "static/assets/imgs/examples/archer",
          "thumbnail": "play.png",
          "imgs": ["start.png", "play.png", "questions.png", "target.png"],
          "btn": { "text": "View", "action": "modal" }
@@ -32,7 +32,7 @@
          "title": "You're Hired!",
          "description": "This HTML5 game was developed specifically for a CIPD conference in London, where our company had a stand with a touchscreen for visitors to play. After playing, visitors were asked to input their contact details to win a prize.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
-         "imgsPath": "static/assets/imgs/examples/youre-hired/",
+         "imgsPath": "static/assets/imgs/examples/youre-hired",
          "thumbnail": "questions.png",
          "imgs": [
             "development.jpg",
@@ -47,7 +47,7 @@
          "title": "True Detective",
          "description": "In this game, users need to find the true and false statements. Correct answers will be given in the end.",
          "tech": ["HTML", "SCSS", "JS", "jQuery"],
-         "imgsPath": "static/assets/imgs/examples/true-detective/",
+         "imgsPath": "static/assets/imgs/examples/true-detective",
          "thumbnail": "title.png",
          "imgs": [
             "title.png",
@@ -64,7 +64,7 @@
          "title": "Onboarding Site",
          "description": "This React mini-site was built for our internal People team. It was designed as part of the new starters onboarding journey, informing them of the culture, ways of working, growth and development, etc.",
          "tech": ["HTML", "SCSS", "JS", "ReactJS"],
-         "imgsPath": "static/assets/imgs/examples/avado-life/",
+         "imgsPath": "static/assets/imgs/examples/avado-life",
          "thumbnail": "popup.png",
          "imgs": [
             "culture.png",
@@ -79,7 +79,7 @@
          "title": "FastFutures Learner Journey",
          "description": "Designed for one of Avado's leading online programmes, this small interactive is a map of the learner's journey through the modules, weeks, and activities.",
          "tech": ["HTML", "SCSS", "JS"],
-         "imgsPath": "static/assets/imgs/examples/fastfutures/",
+         "imgsPath": "static/assets/imgs/examples/fastfutures",
          "thumbnail": "intro.png",
          "imgs": ["intro.png", "desktop.png", "mobile.png"],
          "btn": { "text": "View", "action": "modal" }

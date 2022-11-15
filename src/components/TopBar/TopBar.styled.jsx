@@ -18,8 +18,8 @@ const TopBarStyled = styled.div`
 const SocialsStyled = styled.div`
    align-self: right;
    display: flex;
-   font-size: 1.2rem;
-   gap: 0.5rem;
+   font-size: 1.4rem;
+   gap: 0.8rem;
 `;
 
 const SocialButton = styled.a`
