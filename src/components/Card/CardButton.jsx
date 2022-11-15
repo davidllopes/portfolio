@@ -36,7 +36,11 @@ const CardButton = ({ data }) => {
          {modalIsOpen ? (
             <Modal onClose={handleClose}>
                <img
-                  src={`${data.imgsPath}/${data.imgs[0]}`}
+                  src={`${
+                     data.imgsPath.endsWith("/")
+                        ? data.imgsPath.slice(0, -1)
+                        : data.imgsPath
+                  }/${data.imgs[0]}`}
                   className="img-responsive modal__img"
                   alt=""
                />
