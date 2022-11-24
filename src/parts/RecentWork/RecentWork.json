@@ -72,7 +72,11 @@
             "ways-working.png",
             "working-life.png"
          ],
-         "btn": { "text": "View", "action": "modal" }
+         "btn": {
+            "text": "Take me there",
+            "action": "URL",
+            "URL": "https://life.avadolearning.com/hubfs/avado-life/index.html"
+         }
       },
 
       {
@@ -82,11 +86,7 @@
          "imgsPath": "static/assets/imgs/examples/fastfutures/",
          "thumbnail": "intro.png",
          "imgs": ["intro.png", "desktop.png", "mobile.png"],
-         "btn": {
-            "text": "Take me there",
-            "action": "URL",
-            "URL": "https://life.avadolearning.com/hubfs/avado-life/index.html"
-         }
+         "btn": { "text": "View", "action": "modal" }
       }
    ]
 }
