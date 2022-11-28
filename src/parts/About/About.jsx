@@ -1,3 +1,4 @@
+import Button from "../../components/Button/Button";
 import PowerUp from "../../components/PowerUp/PowerUp";
 import data from "./powerUps.json";
 
@@ -99,9 +100,13 @@ const About = () => {
                   strong aesthetics are my superpowers.
                </p>
                <p>Based in London, UK.</p>
+
                <div className="spacer"></div>
             </div>
             <div className="container">
+               <Button action={"URL"} URL="static/docs/CV_David_Lopes.pdf">
+                  Download my CV
+               </Button>
                <div className="profile-pic">
                   <img
                      className="profile-pic__img img-responsive"

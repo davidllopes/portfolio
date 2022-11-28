@@ -24,6 +24,8 @@ const SocialsStyled = styled.div`
 
 const SocialButton = styled.a`
    color: var(--text-primary);
+   font-weight: bold;
+   text-decoration: none;
 `;
 
 export { TopBarContainer, TopBarStyled, SocialsStyled, SocialButton };

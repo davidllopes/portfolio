@@ -12,6 +12,14 @@ const TopBar = () => {
             <div className="spacer spacer--min-space"></div>
             <SocialsStyled className="top-bar__socials">
                <SocialButton
+                  href="static/docs/CV_David_Lopes.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="CV David Lopes"
+               >
+                  CV
+               </SocialButton>
+               <SocialButton
                   href="https://www.behance.net/davidllopes"
                   target="_blank"
                   rel="noreferrer"
