@@ -8,7 +8,7 @@ const Button = ({ action, children, URL, imgsPath, imgs }) => {
 
    const handleClick = () => {
       if (action === "URL") {
-         window.open(URL, "_blank");
+         window.open(URL, "_blank", "download");
       } else {
          setModalOpen(true);
       }
