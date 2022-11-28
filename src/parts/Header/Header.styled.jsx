@@ -51,8 +51,8 @@ const HeaderDescription = styled.div`
 
 const HeaderCardContainer = styled.ul`
    list-type: none;
-   max-width: calc(60vmin * (9 / 16));
-   min-height: 60vmin;
+   max-width: calc(60vh * (9 / 16));
+   min-height: 60vh;
    perspective: 800px;
    position: relative;
    width: 100%;
