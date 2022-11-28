@@ -9,7 +9,7 @@
          "imgsPath": "static/assets/imgs/examples/future-choices/",
          "thumbnail": "Mockup1x.png",
          "thumbnail2x": "Mockup2x.png",
-         "bigThumbnail": false,
+         "bigThumbnail": true,
          "imgs": [],
          "btn": {
             "text": "Take me there",
