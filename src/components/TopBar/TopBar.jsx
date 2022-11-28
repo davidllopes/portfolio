@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
    TopBarContainer,
    TopBarStyled,
@@ -8,17 +9,18 @@ import {
 const TopBar = () => {
    return (
       <TopBarContainer>
-         <TopBarStyled>
+         <TopBarStyled className="top-bar__container">
             <div className="spacer spacer--min-space"></div>
             <SocialsStyled className="top-bar__socials">
-               <SocialButton
-                  href="static/docs/CV_David_Lopes.pdf"
-                  target="_blank"
-                  rel="noreferrer"
+               <Link
+                  className=""
+                  to="/static/docs/CV_David_Lopes.pdf"
                   title="CV David Lopes"
+                  target="_blank"
+                  download
                >
                   CV
-               </SocialButton>
+               </Link>
                <SocialButton
                   href="https://www.behance.net/davidllopes"
                   target="_blank"

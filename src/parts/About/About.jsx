@@ -104,7 +104,10 @@ const About = () => {
                <div className="spacer"></div>
             </div>
             <div className="container">
-               <Button action={"URL"} URL="static/docs/CV_David_Lopes.pdf">
+               <Button
+                  action={"Download"}
+                  URL="/static/docs/CV_David_Lopes.pdf"
+               >
                   Download my CV
                </Button>
                <div className="profile-pic">
