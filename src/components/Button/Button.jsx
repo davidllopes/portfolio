@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Modal from "../Modal/Modal.jsx";
 
+//@ts-check
+
 const Button = ({ children, action, URL, imgsPath, imgs }) => {
    return action === "Link" ? (
       <Link className="button card__button btn--primary" to={URL}>
