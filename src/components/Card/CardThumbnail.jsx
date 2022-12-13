@@ -1,3 +1,5 @@
+import React from "react";
+
 const CardThumbnail = ({ content, className }) => {
     const thumbnailModifier = content.bigThumbnail
         ? " card__thumbnail--big"
