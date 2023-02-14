@@ -69,8 +69,8 @@ const About = () => {
 
                 <div className="container text-cols text-cols--2cols">
                     <p>
-                        I started my career as a multimedia designer creating
-                        engaging interactive content for an eLearning company
+                        I started my career as a multimedia designer, creating
+                        engaging interactive content for an eLearning company,
                         more than 10 years ago.
                     </p>
                     <p>
@@ -91,7 +91,7 @@ const About = () => {
                     <br />
                     <p>
                         I'm skilled in various web development languages such as
-                        HTML, CSS/Sass, JS, jQuery, React, PHP, SQL.
+                        HTML, CSS/Sass, JavaScript, jQuery, ReactJS, PHP, SQL.
                     </p>
                     <p>
                         I’ve always had a passion for creativity and technology.
@@ -102,7 +102,7 @@ const About = () => {
                     </p>
                     <p>
                         My front-end development skills, attention to detail and
-                        strong aesthetics are my superpowers.
+                        great eye for design are my superpowers.
                     </p>
                     <p>Based in London, UK.</p>
 
