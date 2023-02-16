@@ -2,18 +2,24 @@ import Button from "../../components/Button/Button";
 import PowerUp from "../../components/PowerUp/PowerUp";
 import data from "./powerUps.json";
 
+interface InIcons {
+    icon?: string;
+    img?: string;
+    name: string;
+}
+
 const About = () => {
-    const webArray = data.web.map((item) => (
+    const webArray = data.web.map((item: InIcons) => (
         <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
             {item.name}
         </PowerUp>
     ));
-    const designArray = data.design.map((item) => (
+    const designArray = data.design.map((item: InIcons) => (
         <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
             {item.name}
         </PowerUp>
     ));
-    const otherArray = data.other.map((item) => (
+    const otherArray = data.other.map((item: InIcons) => (
         <PowerUp imgSrc={item.img} icon={item.icon} key={item.name}>
             {item.name}
         </PowerUp>

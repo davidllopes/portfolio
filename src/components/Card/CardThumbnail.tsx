@@ -1,6 +1,10 @@
-import React from "react";
+import { HTMLAttributes } from "react";
 
-const CardThumbnail = ({ content, className }) => {
+interface ICardThumbnail extends HTMLAttributes<HTMLElement> {
+    content: any;
+}
+
+const CardThumbnail = ({ content, className }: ICardThumbnail) => {
     const thumbnailModifier = content.bigThumbnail
         ? " card__thumbnail--big"
         : "";

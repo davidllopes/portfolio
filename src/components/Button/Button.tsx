@@ -2,11 +2,17 @@ import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Modal from "../Modal/Modal.jsx";
+import Modal from "../Modal/Modal";
 
-//@ts-check
+interface IButton {
+    children: any;
+    action: "URL" | "Link" | "Download";
+    URL: string;
+    imgsPath?: string;
+    imgs?: string;
+}
 
-const Button = ({ children, action, URL, imgsPath, imgs }) => {
+const Button = ({ children, action, URL, imgsPath, imgs }: IButton) => {
     return action === "Link" ? (
         <Link className="button card__button btn--primary" to={URL}>
             {children}
