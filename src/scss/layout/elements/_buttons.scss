@@ -2,23 +2,24 @@
 
 .button,
 .btn {
-   background-color: $buttonPrimary;
-   border: 0;
-   border-radius: 100px;
-   color: $buttonPrimaryText;
-   cursor: pointer;
-   text-decoration: none;
-   font-weight: 700;
-   font-size: 1.05rem;
-   padding: 7px 20px;
+    background-color: $buttonPrimary;
+    border: 0;
+    border-radius: 100px;
+    color: $buttonPrimaryText;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 7px 20px;
 
-   &:hover {
-      background-color: $buttonPrimaryHover;
-   }
+    &:hover {
+        background-color: $buttonPrimaryHover;
+    }
 
-   &--primary {
-      background-color: $buttonPrimary;
-      border: 3px solid $buttonPrimaryBorder;
-      min-width: 7rem;
-   }
+    &--primary {
+        background-color: $buttonPrimary;
+        border: 3px solid $buttonPrimaryBorder;
+        min-width: 7rem;
+    }
 }
