@@ -1,13 +1,14 @@
+import React from "react";
 import styled from "styled-components";
 
-const Loader = styled.div`
+export const Loader = styled.div`
     opacity: 1;
     transition: opacity 1s ease-in-out;
 `;
 
-const LoadingAnim = (props) => {
+export const LoadingAnim = ({ style }: any) => {
     return (
-        <Loader style={props.style} className="loadingAnim">
+        <Loader style={style} className="loadingAnim">
             <div className="loader loader1"></div>
             <div className="loader loader2"></div>
             <div className="loader loader3"></div>
@@ -15,5 +16,3 @@ const LoadingAnim = (props) => {
         </Loader>
     );
 };
-
-export default LoadingAnim;
